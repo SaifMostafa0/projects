@@ -31,6 +31,11 @@ class Calculator {
         return result;
     }
 
+    // method to clear the history
+    clearHistory(): void {
+        this.history = [];
+    }
+
     showHistory(): void {
         console.log("\nCalculation History:");
         if (this.history.length === 0) {
