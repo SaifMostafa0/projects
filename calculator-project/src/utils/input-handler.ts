@@ -74,3 +74,4 @@ export class InputHandler implements IInputHandler {
         this.rl.close();
     }
 }
+
